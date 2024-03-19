@@ -11,7 +11,7 @@ import {Dimensions, StyleSheet, Text, View} from 'react-native';
 
 const {width, height} = Dimensions.get('window');
 
-function Animation() {
+function GradientClock() {
   const rotation = useSharedValue(0);
   const centerX = width / 2;
   const centerY = height / 2;
@@ -70,4 +70,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Animation;
+export default GradientClock;

@@ -1,11 +1,11 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
-import Animation from './src/Animation';
+import {View} from 'react-native';
+import GradientClock from './src/GradientClock';
 
 const App = () => {
   return (
     <View style={{flex: 1}}>
-      <Animation />
+      <GradientClock />
     </View>
   );
 };
