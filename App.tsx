@@ -1,13 +1,12 @@
 import React from 'react';
-import {View} from 'react-native';
-import GradientClock from './src/GradientClock';
-import JoyPainting from './src/JoyPainting';
+import RootNavigation from './src/Navigation/RootNavigation';
+import {NavigationContainer} from '@react-navigation/native';
 
 const App = () => {
   return (
-    <View style={{flex: 1}}>
-      <JoyPainting />
-    </View>
+    <NavigationContainer>
+      <RootNavigation />
+    </NavigationContainer>
   );
 };
 
