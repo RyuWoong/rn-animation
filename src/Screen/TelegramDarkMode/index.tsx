@@ -1,3 +1,5 @@
+// https://youtu.be/vKYEFpO06Tk
+
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
