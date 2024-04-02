@@ -1,7 +1,13 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
 import {RootStackParamList} from './types';
-import {GradientClock, Home, JoyPainting, TelegramDarkMode} from '../Screen';
+import {
+  GradientClock,
+  Home,
+  JoyPainting,
+  Rings,
+  TelegramDarkMode,
+} from '../Screen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -14,6 +20,7 @@ function RootNavigation() {
       <Stack.Screen name="GradientClock" component={GradientClock} />
       <Stack.Screen name="JoyPainting" component={JoyPainting} />
       <Stack.Screen name="TelegramDarkMode" component={TelegramDarkMode} />
+      <Stack.Screen name="Rings" component={Rings} />
     </Stack.Navigator>
   );
 }

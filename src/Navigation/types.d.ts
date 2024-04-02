@@ -3,4 +3,6 @@ export type RootStackParamList = {
   GradientClock: undefined;
   JoyPainting: undefined;
   TelegramDarkMode: undefined;
+  HeadSpace: undefined;
+  Rings: undefined;
 };

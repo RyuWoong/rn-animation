@@ -20,6 +20,10 @@ const List: {name: string; target: keyof RootStackParamList}[] = [
     name: 'Telegram Dark Mode',
     target: 'TelegramDarkMode',
   },
+  {
+    name: 'Rings',
+    target: 'Rings',
+  },
 ];
 
 interface Props {
